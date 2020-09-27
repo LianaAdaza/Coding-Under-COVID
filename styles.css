@@ -166,7 +166,7 @@ body {
   transition-timing-function: ease;
 }
 
-.ocdescnlink, .otdescnlink {
+.ocdescnlink, .ogdescnlink {
   display: flex;
   flex-direction: column;
   padding-left: 10%;
@@ -204,4 +204,18 @@ form {
   height: 50px;
   width: 350px;
   border-radius: 5px;
+}
+
+/* Breakpoints  */
+@media screen and (max-width: 1300px) {
+  .ocitem, .ogitem {
+    flex-direction: column;
+  }
+  .ocpic, .ogpic {
+    width: 30%;
+  }
+  .ocdescnlink, .ogdescnlink{
+    text-align: center;
+    padding-left: 0%;
+  }
 }
