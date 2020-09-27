@@ -95,12 +95,20 @@ body {
   border-radius: 5%;
 }
 
+.startbtn {
+  height: 8%;
+  width: 15%;
+  margin-left: 5%;
+  border-radius: 5%;
+  font-size: 13px;
+}
+
 .title {
   font-size: 50px;
   color: white;
 }
 
-.frontimage{
+.frontimage {
   text-align: center;
   grid-column: 1;
   grid-row: 1;
