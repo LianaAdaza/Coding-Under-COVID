@@ -78,13 +78,15 @@ body {
 /* Index.HTML */
 .frontcontainer {
   display: grid;
+  text-align: center;
   justify-content: center;
   max-width: 100%;
-  margin-bottom: 5%
+  margin: 5%;
 }
 
-.desc1 {
+.desc {
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -93,12 +95,12 @@ body {
   grid-row: 1;
   z-index: 1;
   border-radius: 5%;
+  max-width: 100%;
 }
 
 .startbtn {
   height: 8%;
-  width: 15%;
-  margin-left: 5%;
+  max-width: 15%;
   border-radius: 5%;
   font-size: 13px;
 }
@@ -106,6 +108,7 @@ body {
 .title {
   font-size: 50px;
   color: white;
+  max-width: 100%;
 }
 
 .frontimage {
@@ -228,6 +231,12 @@ form {
 
 /* Breakpoints  */
 @media screen and (max-width: 1300px) {
+  body {
+    background: rgba(34,193,195,1);
+  }
+  .aboutitems {
+    flex-direction: column;
+  }
   .ocitem, .ogitem {
     flex-direction: column;
   }
