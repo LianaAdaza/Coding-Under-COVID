@@ -39,9 +39,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1% 3% 1% 3%;
+  padding: 3% 3% 3% 3%;
   overflow: hidden;
   margin-bottom: 5%;
+  max-width: 100%;
 }
 
 .logo {
@@ -137,8 +138,19 @@ body {
   font-style: italic;
 }
 
-/* Resources.HTML */
+/* Covid19.HTML */
+.covidchart {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5% 10% 5% 10%;
+  margin: 5%;
+}
 
+.jhudashboard {
+  width: 100%;
+  height: 700px;
+}
+
+/* Resources.HTML */
 .caption {
   font-size: 22px;
   font-style: italic;
