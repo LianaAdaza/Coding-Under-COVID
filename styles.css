@@ -116,6 +116,7 @@ body {
   grid-column: 1;
   grid-row: 1;
   border-radius: 5%;
+  height: 100%;
 }
 
 /* About.HTML */
@@ -230,14 +231,33 @@ form {
 }
 
 /* Breakpoints  */
-@media screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
   body {
     background: rgba(34,193,195,1);
   }
-  .aboutitems {
+  .logo, .tabbar {
+    padding: 0%;
+  }
+  .aboutitems, .ocitem, .ogitem {
     flex-direction: column;
   }
-  .ocitem, .ogitem {
+  .ocpic, .ogpic {
+    width: 30%;
+  }
+  .ocdescnlink, .ogdescnlink{
+    text-align: center;
+    padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: rgba(34,193,195,1);
+  }
+  .logo, .tabbar {
+    padding: 0%;
+  }
+  .aboutitems, .ocitem, .ogitem {
     flex-direction: column;
   }
   .ocpic, .ogpic {
