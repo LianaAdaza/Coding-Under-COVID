@@ -17,6 +17,7 @@ h2 {
 button {
   background-color: rgba(93, 117, 156, 0.5);
   color: #FFFFFF;
+  word-wrap: normal;
 }
 
 /* Background */
